@@ -1,4 +1,4 @@
-
+window.Modules = {};
 window._ = require('lodash');
 
 /**

@@ -73,6 +73,16 @@
 * Consulter la liste des fiches saisies par type de fiche, par unité et par agent de saisie avec possibilité de filtrer par date
 * Consulter le détail d'une fiche saisie
 
+## Modules :
+- Les modules heritent tous du layout global directement
+- Les modules supposent que les assets Bootstrap 4, JQuery, Axios sont assuré globalement par l'application mére.
+- Chaque module créer sa propre instance Vue dans un namespace globle avec le même nom que le module.
+- L'instance Vue de chaque module point vers un element avec l'id composé du nom du module avec le prefixe `-module`
+
+### Agent contrôle
+### Unité de contrôle
+### Utilisateurs
+### Tableau de bord
 
 ## License
 
