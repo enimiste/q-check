@@ -1,0 +1,14 @@
+{
+    "name": "UniteControle",
+    "alias": "unitecontrole",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\UniteControle\\Providers\\UniteControleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/agentcontrole",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AgentControle\\Providers\\AgentControleServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AgentControle\\": ""
+        }
+    }
+}

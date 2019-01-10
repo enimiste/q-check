@@ -1,0 +1,14 @@
+{
+    "name": "AgentControle",
+    "alias": "agentcontrole",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AgentControle\\Providers\\AgentControleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
